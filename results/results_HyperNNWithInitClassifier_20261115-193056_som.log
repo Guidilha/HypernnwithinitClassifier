@@ -1,0 +1,377 @@
+2026-11-15 19:30:56,401 - Starting 3 experiments for strategy: SOM
+2026-11-15 19:30:56,402 - Seeds utilizadas: [0, 1, 2]
+2026-11-15 19:30:56,404 - [EXECUÇÃO] Dataset: iris | Estratégia: SOM | Seed: 0
+2026-11-15 19:30:56,409 - Seed: 0, Dataset: iris, Estratégia: SOM, Label: 0 (1/3).
+2026-11-15 19:30:56,424 - [SEED] seed=0 | label=0 | fingerprint treino=6a6482d1
+2026-11-15 19:30:56,518 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.020515 | caixas=4 | QE=0.4103 TE=0.0000
+2026-11-15 19:30:56,622 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.026856 | caixas=9 | QE=0.2507 TE=0.0571
+2026-11-15 19:30:56,722 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.094191 | caixas=12 | QE=0.2093 TE=0.4000
+2026-11-15 19:30:56,860 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.068478 | caixas=16 | QE=0.1625 TE=0.3714
+2026-11-15 19:30:56,975 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.020264 | caixas=4 | QE=0.4053 TE=0.0000
+2026-11-15 19:30:57,080 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.084035 | caixas=9 | QE=0.2736 TE=0.2571
+2026-11-15 19:30:57,191 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.147145 | caixas=12 | QE=0.2368 TE=0.5714
+2026-11-15 19:30:57,304 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.111689 | caixas=16 | QE=0.2202 TE=0.4571
+2026-11-15 19:30:57,538 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.022571 | caixas=4 | QE=0.4514 TE=0.0000
+2026-11-15 19:30:57,668 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.115870 | caixas=9 | QE=0.2749 TE=0.3714
+2026-11-15 19:30:57,770 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.099656 | caixas=12 | QE=0.2082 TE=0.4286
+2026-11-15 19:30:57,868 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.053737 | caixas=16 | QE=0.1475 TE=0.3143
+2026-11-15 19:30:57,957 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.021270 | caixas=4 | QE=0.4254 TE=0.0000
+2026-11-15 19:30:58,056 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.021567 | caixas=9 | QE=0.2745 TE=0.0286
+2026-11-15 19:30:58,147 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.023133 | caixas=12 | QE=0.2159 TE=0.0571
+2026-11-15 19:30:58,250 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.020163 | caixas=16 | QE=0.1882 TE=0.0571
+2026-11-15 19:30:58,343 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.020738 | caixas=4 | QE=0.4148 TE=0.0000
+2026-11-15 19:30:58,442 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.014873 | caixas=9 | QE=0.2975 TE=0.0000
+2026-11-15 19:30:58,537 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.012427 | caixas=12 | QE=0.2485 TE=0.0000
+2026-11-15 19:30:58,628 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.043885 | caixas=16 | QE=0.1982 TE=0.1714
+2026-11-15 19:30:58,721 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.022749 | caixas=4 | QE=0.4550 TE=0.0000
+2026-11-15 19:30:58,815 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.014125 | caixas=9 | QE=0.2825 TE=0.0000
+2026-11-15 19:30:58,909 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.066344 | caixas=12 | QE=0.2160 TE=0.2571
+2026-11-15 19:30:59,009 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.050159 | caixas=16 | QE=0.1633 TE=0.2571
+2026-11-15 19:30:59,096 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.022061 | caixas=4 | QE=0.4412 TE=0.0000
+2026-11-15 19:30:59,191 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.016319 | caixas=9 | QE=0.3264 TE=0.0000
+2026-11-15 19:30:59,282 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.013696 | caixas=12 | QE=0.2739 TE=0.0000
+2026-11-15 19:30:59,377 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.033038 | caixas=16 | QE=0.2434 TE=0.0857
+2026-11-15 19:30:59,470 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.021481 | caixas=4 | QE=0.4296 TE=0.0000
+2026-11-15 19:30:59,573 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.015997 | caixas=9 | QE=0.3199 TE=0.0000
+2026-11-15 19:30:59,671 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.014408 | caixas=12 | QE=0.2882 TE=0.0000
+2026-11-15 19:30:59,761 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.012690 | caixas=16 | QE=0.2538 TE=0.0000
+2026-11-15 19:30:59,852 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.023806 | caixas=4 | QE=0.4761 TE=0.0000
+2026-11-15 19:30:59,948 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.057479 | caixas=9 | QE=0.3499 TE=0.1143
+2026-11-15 19:31:00,041 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.038723 | caixas=12 | QE=0.2853 TE=0.0857
+2026-11-15 19:31:00,135 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.028104 | caixas=16 | QE=0.2623 TE=0.0571
+2026-11-15 19:31:00,135 - [INIT GRID] Melhor: {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 12} (-CE=-0.012427)
+2026-11-15 19:31:00,135 - Init travada: 12 caixas
+2026-11-15 19:31:45,487 - [VIZ] figura salva em results\figures\iris_som_seed0_label0.png
+2026-11-15 19:31:45,487 - [RESULTADO] iris | SOM | seed 0 | label 0 | F1 teste=1.0000 | caixas=12.00 | busca=45.6s | treino=2.5s | épocas=733
+2026-11-15 19:31:45,487 - Seed: 0, Dataset: iris, Estratégia: SOM, Label: 1 (2/3).
+2026-11-15 19:31:45,490 - [SEED] seed=0 | label=1 | fingerprint treino=a37f9df4
+2026-11-15 19:31:45,584 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.024078 | caixas=4 | QE=0.4816 TE=0.0000
+2026-11-15 19:31:45,672 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.038636 | caixas=9 | QE=0.2847 TE=0.0857
+2026-11-15 19:31:45,774 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.043941 | caixas=12 | QE=0.2278 TE=0.1429
+2026-11-15 19:31:45,866 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.060427 | caixas=16 | QE=0.1967 TE=0.2571
+2026-11-15 19:31:45,957 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.024333 | caixas=4 | QE=0.4867 TE=0.0000
+2026-11-15 19:31:46,054 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.196571 | caixas=9 | QE=0.3024 TE=0.6000
+2026-11-15 19:31:46,146 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.156968 | caixas=12 | QE=0.2648 TE=0.5429
+2026-11-15 19:31:46,244 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.069146 | caixas=16 | QE=0.2251 TE=0.2571
+2026-11-15 19:31:46,331 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.024599 | caixas=4 | QE=0.4920 TE=0.0000
+2026-11-15 19:31:46,422 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.092338 | caixas=9 | QE=0.3006 TE=0.2571
+2026-11-15 19:31:46,513 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.065687 | caixas=12 | QE=0.2358 TE=0.2286
+2026-11-15 19:31:46,600 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.091419 | caixas=16 | QE=0.1706 TE=0.4857
+2026-11-15 19:31:46,688 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.023987 | caixas=4 | QE=0.4797 TE=0.0000
+2026-11-15 19:31:46,805 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.015026 | caixas=9 | QE=0.3005 TE=0.0000
+2026-11-15 19:31:46,907 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.011537 | caixas=12 | QE=0.2307 TE=0.0000
+2026-11-15 19:31:47,009 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.009667 | caixas=16 | QE=0.1933 TE=0.0000
+2026-11-15 19:31:47,109 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.025001 | caixas=4 | QE=0.5000 TE=0.0000
+2026-11-15 19:31:47,214 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.015143 | caixas=9 | QE=0.3029 TE=0.0000
+2026-11-15 19:31:47,314 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.041942 | caixas=12 | QE=0.2553 TE=0.1143
+2026-11-15 19:31:47,418 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.023758 | caixas=16 | QE=0.2217 TE=0.0571
+2026-11-15 19:31:47,523 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.024373 | caixas=4 | QE=0.4875 TE=0.0000
+2026-11-15 19:31:47,628 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.032734 | caixas=9 | QE=0.3055 TE=0.0571
+2026-11-15 19:31:47,727 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.018913 | caixas=12 | QE=0.2407 TE=0.0286
+2026-11-15 19:31:47,836 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.024336 | caixas=16 | QE=0.1793 TE=0.0857
+2026-11-15 19:31:47,930 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.026978 | caixas=4 | QE=0.5396 TE=0.0000
+2026-11-15 19:31:48,021 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.016604 | caixas=9 | QE=0.3321 TE=0.0000
+2026-11-15 19:31:48,123 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.014383 | caixas=12 | QE=0.2877 TE=0.0000
+2026-11-15 19:31:48,235 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.013122 | caixas=16 | QE=0.2624 TE=0.0000
+2026-11-15 19:31:48,326 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.027204 | caixas=4 | QE=0.5441 TE=0.0000
+2026-11-15 19:31:48,419 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.016558 | caixas=9 | QE=0.3312 TE=0.0000
+2026-11-15 19:31:48,520 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.014253 | caixas=12 | QE=0.2851 TE=0.0000
+2026-11-15 19:31:48,625 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.013094 | caixas=16 | QE=0.2619 TE=0.0000
+2026-11-15 19:31:48,742 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.029027 | caixas=4 | QE=0.5805 TE=0.0000
+2026-11-15 19:31:48,844 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.018088 | caixas=9 | QE=0.3618 TE=0.0000
+2026-11-15 19:31:48,939 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.015039 | caixas=12 | QE=0.3008 TE=0.0000
+2026-11-15 19:31:49,032 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.020204 | caixas=16 | QE=0.2571 TE=0.0286
+2026-11-15 19:31:49,032 - [INIT GRID] Melhor: {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 16} (-CE=-0.009667)
+2026-11-15 19:31:49,033 - Init travada: 16 caixas
+2026-11-15 19:32:34,621 - [VIZ] figura salva em results\figures\iris_som_seed0_label1.png
+2026-11-15 19:32:34,621 - [RESULTADO] iris | SOM | seed 0 | label 1 | F1 teste=0.6923 | caixas=16.00 | busca=45.3s | treino=2.7s | épocas=794
+2026-11-15 19:32:34,622 - Seed: 0, Dataset: iris, Estratégia: SOM, Label: 2 (3/3).
+2026-11-15 19:32:34,628 - [SEED] seed=0 | label=2 | fingerprint treino=2223cbc4
+2026-11-15 19:32:34,733 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.027292 | caixas=4 | QE=0.5458 TE=0.0000
+2026-11-15 19:32:34,841 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.091886 | caixas=9 | QE=0.3675 TE=0.2000
+2026-11-15 19:32:34,955 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.124213 | caixas=12 | QE=0.2947 TE=0.3714
+2026-11-15 19:32:35,069 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.124341 | caixas=16 | QE=0.2321 TE=0.4857
+2026-11-15 19:32:35,184 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.027082 | caixas=4 | QE=0.5416 TE=0.0000
+2026-11-15 19:32:35,291 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.198867 | caixas=9 | QE=0.3712 TE=0.4857
+2026-11-15 19:32:35,404 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.095334 | caixas=12 | QE=0.3104 TE=0.2571
+2026-11-15 19:32:35,511 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.144622 | caixas=16 | QE=0.2327 TE=0.5714
+2026-11-15 19:32:35,612 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.029796 | caixas=4 | QE=0.5959 TE=0.0000
+2026-11-15 19:32:35,714 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.108227 | caixas=9 | QE=0.3885 TE=0.2286
+2026-11-15 19:32:35,813 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.087499 | caixas=12 | QE=0.3141 TE=0.2286
+2026-11-15 19:32:35,916 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.085903 | caixas=16 | QE=0.2187 TE=0.3429
+2026-11-15 19:32:36,013 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.027994 | caixas=4 | QE=0.5599 TE=0.0000
+2026-11-15 19:32:36,117 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.029188 | caixas=9 | QE=0.3715 TE=0.0286
+2026-11-15 19:32:36,213 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.015848 | caixas=12 | QE=0.3170 TE=0.0000
+2026-11-15 19:32:36,311 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.026944 | caixas=16 | QE=0.2515 TE=0.0571
+2026-11-15 19:32:36,416 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.029356 | caixas=4 | QE=0.5871 TE=0.0000
+2026-11-15 19:32:36,539 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.019805 | caixas=9 | QE=0.3961 TE=0.0000
+2026-11-15 19:32:36,652 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.017569 | caixas=12 | QE=0.3514 TE=0.0000
+2026-11-15 19:32:36,766 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.022341 | caixas=16 | QE=0.2843 TE=0.0286
+2026-11-15 19:32:36,861 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.035669 | caixas=4 | QE=0.7134 TE=0.0000
+2026-11-15 19:32:36,968 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.019640 | caixas=9 | QE=0.3928 TE=0.0000
+2026-11-15 19:32:37,065 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.078280 | caixas=12 | QE=0.3131 TE=0.2000
+2026-11-15 19:32:37,165 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.024081 | caixas=16 | QE=0.2248 TE=0.0571
+2026-11-15 19:32:37,258 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.031448 | caixas=4 | QE=0.6290 TE=0.0000
+2026-11-15 19:32:37,354 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.022179 | caixas=9 | QE=0.4436 TE=0.0000
+2026-11-15 19:32:37,454 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.019434 | caixas=12 | QE=0.3887 TE=0.0000
+2026-11-15 19:32:37,546 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.016144 | caixas=16 | QE=0.3229 TE=0.0000
+2026-11-15 19:32:37,638 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.031766 | caixas=4 | QE=0.6353 TE=0.0000
+2026-11-15 19:32:37,731 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.022724 | caixas=9 | QE=0.4545 TE=0.0000
+2026-11-15 19:32:37,828 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.020405 | caixas=12 | QE=0.4081 TE=0.0000
+2026-11-15 19:32:37,929 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.037278 | caixas=16 | QE=0.3479 TE=0.0571
+2026-11-15 19:32:38,023 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.033762 | caixas=4 | QE=0.6752 TE=0.0000
+2026-11-15 19:32:38,115 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.026050 | caixas=9 | QE=0.5210 TE=0.0000
+2026-11-15 19:32:38,222 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.018907 | caixas=12 | QE=0.3781 TE=0.0000
+2026-11-15 19:32:38,327 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.016670 | caixas=16 | QE=0.3334 TE=0.0000
+2026-11-15 19:32:38,327 - [INIT GRID] Melhor: {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 12} (-CE=-0.015848)
+2026-11-15 19:32:38,327 - Init travada: 12 caixas
+2026-11-15 19:33:28,489 - [VIZ] figura salva em results\figures\iris_som_seed0_label2.png
+2026-11-15 19:33:28,489 - [RESULTADO] iris | SOM | seed 0 | label 2 | F1 teste=0.8000 | caixas=12.00 | busca=49.2s | treino=3.5s | épocas=795
+2026-11-15 19:33:28,508 - [EXECUÇÃO] Dataset: iris | Estratégia: SOM | Seed: 1
+2026-11-15 19:33:28,511 - Seed: 1, Dataset: iris, Estratégia: SOM, Label: 0 (1/3).
+2026-11-15 19:33:28,516 - [SEED] seed=1 | label=0 | fingerprint treino=c70bf47e
+2026-11-15 19:33:28,617 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.020376 | caixas=4 | QE=0.4075 TE=0.0000
+2026-11-15 19:33:28,717 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.042756 | caixas=9 | QE=0.2603 TE=0.1143
+2026-11-15 19:33:28,814 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.084016 | caixas=12 | QE=0.2306 TE=0.3143
+2026-11-15 19:33:28,923 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.035672 | caixas=16 | QE=0.1611 TE=0.1714
+2026-11-15 19:33:29,023 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.020749 | caixas=4 | QE=0.4150 TE=0.0000
+2026-11-15 19:33:29,142 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.092098 | caixas=9 | QE=0.2743 TE=0.2857
+2026-11-15 19:33:29,317 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.149052 | caixas=12 | QE=0.2293 TE=0.6000
+2026-11-15 19:33:29,407 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.142814 | caixas=16 | QE=0.1574 TE=0.8571
+2026-11-15 19:33:29,524 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.021476 | caixas=4 | QE=0.4295 TE=0.0000
+2026-11-15 19:33:29,740 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.139366 | caixas=9 | QE=0.2748 TE=0.4571
+2026-11-15 19:33:29,972 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.137418 | caixas=12 | QE=0.2114 TE=0.6000
+2026-11-15 19:33:30,135 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.060102 | caixas=16 | QE=0.1426 TE=0.3714
+2026-11-15 19:33:30,287 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.024141 | caixas=4 | QE=0.4828 TE=0.0000
+2026-11-15 19:33:30,448 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.026995 | caixas=9 | QE=0.2519 TE=0.0571
+2026-11-15 19:33:30,555 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.023282 | caixas=12 | QE=0.2173 TE=0.0571
+2026-11-15 19:33:30,645 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.022336 | caixas=16 | QE=0.1646 TE=0.0857
+2026-11-15 19:33:30,739 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.021456 | caixas=4 | QE=0.4291 TE=0.0000
+2026-11-15 19:33:30,843 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.014322 | caixas=9 | QE=0.2864 TE=0.0000
+2026-11-15 19:33:30,953 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.048210 | caixas=12 | QE=0.2500 TE=0.1429
+2026-11-15 19:33:31,084 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.020955 | caixas=16 | QE=0.1956 TE=0.0571
+2026-11-15 19:33:31,208 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.022522 | caixas=4 | QE=0.4504 TE=0.0000
+2026-11-15 19:33:31,320 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.045827 | caixas=9 | QE=0.2789 TE=0.1143
+2026-11-15 19:33:31,450 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.041920 | caixas=12 | QE=0.2174 TE=0.1429
+2026-11-15 19:33:31,559 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.031604 | caixas=16 | QE=0.1639 TE=0.1429
+2026-11-15 19:33:31,648 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.024234 | caixas=4 | QE=0.4847 TE=0.0000
+2026-11-15 19:33:31,745 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.025737 | caixas=9 | QE=0.3276 TE=0.0286
+2026-11-15 19:33:31,840 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.053796 | caixas=12 | QE=0.2789 TE=0.1429
+2026-11-15 19:33:31,936 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.018889 | caixas=16 | QE=0.2404 TE=0.0286
+2026-11-15 19:33:32,026 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.020930 | caixas=4 | QE=0.4186 TE=0.0000
+2026-11-15 19:33:32,127 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.016811 | caixas=9 | QE=0.3362 TE=0.0000
+2026-11-15 19:33:32,231 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.030547 | caixas=12 | QE=0.2851 TE=0.0571
+2026-11-15 19:33:32,341 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.026997 | caixas=16 | QE=0.2520 TE=0.0571
+2026-11-15 19:33:32,447 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.025875 | caixas=4 | QE=0.5175 TE=0.0000
+2026-11-15 19:33:32,536 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.027066 | caixas=9 | QE=0.3445 TE=0.0286
+2026-11-15 19:33:32,622 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.055286 | caixas=12 | QE=0.2867 TE=0.1429
+2026-11-15 19:33:32,714 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.057601 | caixas=16 | QE=0.2304 TE=0.2000
+2026-11-15 19:33:32,715 - [INIT GRID] Melhor: {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 8} (-CE=-0.014322)
+2026-11-15 19:33:32,715 - Init travada: 9 caixas
+2026-11-15 19:34:13,329 - [RESULTADO] iris | SOM | seed 1 | label 0 | F1 teste=0.9655 | caixas=8.75 | busca=42.6s | treino=2.2s | épocas=699
+2026-11-15 19:34:13,329 - Seed: 1, Dataset: iris, Estratégia: SOM, Label: 1 (2/3).
+2026-11-15 19:34:13,333 - [SEED] seed=1 | label=1 | fingerprint treino=d2a62f12
+2026-11-15 19:34:13,420 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.025472 | caixas=4 | QE=0.5094 TE=0.0000
+2026-11-15 19:34:13,507 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.043600 | caixas=9 | QE=0.3213 TE=0.0857
+2026-11-15 19:34:13,608 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.077128 | caixas=12 | QE=0.2511 TE=0.2571
+2026-11-15 19:34:13,691 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.142259 | caixas=16 | QE=0.2012 TE=0.6571
+2026-11-15 19:34:13,781 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.024589 | caixas=4 | QE=0.4918 TE=0.0000
+2026-11-15 19:34:13,872 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.216270 | caixas=9 | QE=0.3187 TE=0.6286
+2026-11-15 19:34:13,956 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.112637 | caixas=12 | QE=0.2673 TE=0.3714
+2026-11-15 19:34:14,041 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.150200 | caixas=16 | QE=0.2417 TE=0.5714
+2026-11-15 19:34:14,128 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.027826 | caixas=4 | QE=0.5565 TE=0.0000
+2026-11-15 19:34:14,212 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.078249 | caixas=9 | QE=0.3534 TE=0.1714
+2026-11-15 19:34:14,306 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.202301 | caixas=12 | QE=0.2750 TE=0.6857
+2026-11-15 19:34:14,391 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.071111 | caixas=16 | QE=0.2118 TE=0.2857
+2026-11-15 19:34:14,477 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.025496 | caixas=4 | QE=0.5099 TE=0.0000
+2026-11-15 19:34:14,557 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.016093 | caixas=9 | QE=0.3219 TE=0.0000
+2026-11-15 19:34:14,643 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.013267 | caixas=12 | QE=0.2653 TE=0.0000
+2026-11-15 19:34:14,734 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.011224 | caixas=16 | QE=0.2245 TE=0.0000
+2026-11-15 19:34:14,823 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.024667 | caixas=4 | QE=0.4933 TE=0.0000
+2026-11-15 19:34:14,908 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.016480 | caixas=9 | QE=0.3296 TE=0.0000
+2026-11-15 19:34:15,002 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.049485 | caixas=12 | QE=0.3012 TE=0.1143
+2026-11-15 19:34:15,100 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.047407 | caixas=16 | QE=0.2458 TE=0.1429
+2026-11-15 19:34:15,183 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.027919 | caixas=4 | QE=0.5584 TE=0.0000
+2026-11-15 19:34:15,285 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.060566 | caixas=9 | QE=0.3687 TE=0.1143
+2026-11-15 19:34:15,376 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.029233 | caixas=12 | QE=0.2728 TE=0.0571
+2026-11-15 19:34:15,465 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.032840 | caixas=16 | QE=0.2420 TE=0.0857
+2026-11-15 19:34:15,557 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.027600 | caixas=4 | QE=0.5520 TE=0.0000
+2026-11-15 19:34:15,645 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.017692 | caixas=9 | QE=0.3538 TE=0.0000
+2026-11-15 19:34:15,736 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.016197 | caixas=12 | QE=0.3239 TE=0.0000
+2026-11-15 19:34:15,828 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.013596 | caixas=16 | QE=0.2719 TE=0.0000
+2026-11-15 19:34:15,922 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.026602 | caixas=4 | QE=0.5320 TE=0.0000
+2026-11-15 19:34:16,011 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.018257 | caixas=9 | QE=0.3651 TE=0.0000
+2026-11-15 19:34:16,098 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.016216 | caixas=12 | QE=0.3243 TE=0.0000
+2026-11-15 19:34:16,182 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.014440 | caixas=16 | QE=0.2888 TE=0.0000
+2026-11-15 19:34:16,277 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.028778 | caixas=4 | QE=0.5756 TE=0.0000
+2026-11-15 19:34:16,368 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.018955 | caixas=9 | QE=0.3791 TE=0.0000
+2026-11-15 19:34:16,458 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.036328 | caixas=12 | QE=0.3391 TE=0.0571
+2026-11-15 19:34:16,551 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.014907 | caixas=16 | QE=0.2981 TE=0.0000
+2026-11-15 19:34:16,551 - [INIT GRID] Melhor: {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 16} (-CE=-0.011224)
+2026-11-15 19:34:16,551 - Init travada: 16 caixas
+2026-11-15 19:35:01,718 - [RESULTADO] iris | SOM | seed 1 | label 1 | F1 teste=0.8462 | caixas=15.75 | busca=45.9s | treino=2.5s | épocas=793
+2026-11-15 19:35:01,718 - Seed: 1, Dataset: iris, Estratégia: SOM, Label: 2 (3/3).
+2026-11-15 19:35:01,722 - [SEED] seed=1 | label=2 | fingerprint treino=2196d7a4
+2026-11-15 19:35:01,815 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.027584 | caixas=4 | QE=0.5517 TE=0.0000
+2026-11-15 19:35:01,911 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.228184 | caixas=9 | QE=0.3672 TE=0.5714
+2026-11-15 19:35:02,009 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.201166 | caixas=12 | QE=0.3095 TE=0.6000
+2026-11-15 19:35:02,096 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.130959 | caixas=16 | QE=0.2321 TE=0.5143
+2026-11-15 19:35:02,184 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.027282 | caixas=4 | QE=0.5456 TE=0.0000
+2026-11-15 19:35:02,278 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.196790 | caixas=9 | QE=0.3673 TE=0.4857
+2026-11-15 19:35:02,374 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.259716 | caixas=12 | QE=0.3398 TE=0.7143
+2026-11-15 19:35:02,461 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.152661 | caixas=16 | QE=0.2705 TE=0.5143
+2026-11-15 19:35:02,542 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.028706 | caixas=4 | QE=0.5741 TE=0.0000
+2026-11-15 19:35:02,626 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.195170 | caixas=9 | QE=0.3848 TE=0.4571
+2026-11-15 19:35:02,707 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.163788 | caixas=12 | QE=0.3230 TE=0.4571
+2026-11-15 19:35:02,795 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.159693 | caixas=16 | QE=0.2457 TE=0.6000
+2026-11-15 19:35:02,885 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.027723 | caixas=4 | QE=0.5545 TE=0.0000
+2026-11-15 19:35:02,970 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.040085 | caixas=9 | QE=0.3741 TE=0.0571
+2026-11-15 19:35:03,054 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.053049 | caixas=12 | QE=0.3229 TE=0.1143
+2026-11-15 19:35:03,140 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.052404 | caixas=16 | QE=0.2717 TE=0.1429
+2026-11-15 19:35:03,229 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.027729 | caixas=4 | QE=0.5546 TE=0.0000
+2026-11-15 19:35:03,313 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.031391 | caixas=9 | QE=0.3995 TE=0.0286
+2026-11-15 19:35:03,401 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.027479 | caixas=12 | QE=0.3497 TE=0.0286
+2026-11-15 19:35:03,491 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.066364 | caixas=16 | QE=0.2997 TE=0.1714
+2026-11-15 19:35:03,581 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.028673 | caixas=4 | QE=0.5735 TE=0.0000
+2026-11-15 19:35:03,664 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.135152 | caixas=9 | QE=0.4026 TE=0.2857
+2026-11-15 19:35:03,749 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.074248 | caixas=12 | QE=0.3353 TE=0.1714
+2026-11-15 19:35:03,836 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.076445 | caixas=16 | QE=0.2489 TE=0.2571
+2026-11-15 19:35:03,920 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.032295 | caixas=4 | QE=0.6459 TE=0.0000
+2026-11-15 19:35:04,006 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.021346 | caixas=9 | QE=0.4269 TE=0.0000
+2026-11-15 19:35:04,091 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.041229 | caixas=12 | QE=0.3848 TE=0.0571
+2026-11-15 19:35:04,181 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.016317 | caixas=16 | QE=0.3263 TE=0.0000
+2026-11-15 19:35:04,265 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.033204 | caixas=4 | QE=0.6641 TE=0.0000
+2026-11-15 19:35:04,355 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.022935 | caixas=9 | QE=0.4587 TE=0.0000
+2026-11-15 19:35:04,443 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.031512 | caixas=12 | QE=0.4011 TE=0.0286
+2026-11-15 19:35:04,531 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.028274 | caixas=16 | QE=0.3599 TE=0.0286
+2026-11-15 19:35:04,615 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.032480 | caixas=4 | QE=0.6496 TE=0.0000
+2026-11-15 19:35:04,699 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.022267 | caixas=9 | QE=0.4453 TE=0.0000
+2026-11-15 19:35:04,785 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.020437 | caixas=12 | QE=0.4087 TE=0.0000
+2026-11-15 19:35:04,868 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.046950 | caixas=16 | QE=0.3459 TE=0.0857
+2026-11-15 19:35:04,868 - [INIT GRID] Melhor: {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 16} (-CE=-0.016317)
+2026-11-15 19:35:04,869 - Init travada: 16 caixas
+2026-11-15 19:35:26,222 - [RESULTADO] iris | SOM | seed 1 | label 2 | F1 teste=0.8148 | caixas=10.00 | busca=21.8s | treino=2.7s | épocas=847
+2026-11-15 19:35:26,233 - [EXECUÇÃO] Dataset: iris | Estratégia: SOM | Seed: 2
+2026-11-15 19:35:26,238 - Seed: 2, Dataset: iris, Estratégia: SOM, Label: 0 (1/3).
+2026-11-15 19:35:26,242 - [SEED] seed=2 | label=0 | fingerprint treino=fe64dbbb
+2026-11-15 19:35:26,323 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.020930 | caixas=4 | QE=0.4186 TE=0.0000
+2026-11-15 19:35:26,417 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.054465 | caixas=9 | QE=0.2460 TE=0.1714
+2026-11-15 19:35:26,509 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.090783 | caixas=12 | QE=0.2017 TE=0.4000
+2026-11-15 19:35:26,599 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.052026 | caixas=16 | QE=0.1324 TE=0.3429
+2026-11-15 19:35:26,689 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.020817 | caixas=4 | QE=0.4163 TE=0.0000
+2026-11-15 19:35:26,773 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.194367 | caixas=9 | QE=0.2864 TE=0.6286
+2026-11-15 19:35:26,859 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.172388 | caixas=12 | QE=0.2028 TE=0.8000
+2026-11-15 19:35:26,944 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.113675 | caixas=16 | QE=0.1608 TE=0.6571
+2026-11-15 19:35:27,028 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.022381 | caixas=4 | QE=0.4476 TE=0.0000
+2026-11-15 19:35:27,119 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.045354 | caixas=9 | QE=0.2761 TE=0.1143
+2026-11-15 19:35:27,204 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.120602 | caixas=12 | QE=0.2034 TE=0.5429
+2026-11-15 19:35:27,309 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.053667 | caixas=16 | QE=0.1366 TE=0.3429
+2026-11-15 19:35:27,443 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.021411 | caixas=4 | QE=0.4282 TE=0.0000
+2026-11-15 19:35:27,556 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.029135 | caixas=9 | QE=0.2719 TE=0.0571
+2026-11-15 19:35:27,641 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.039580 | caixas=12 | QE=0.2052 TE=0.1429
+2026-11-15 19:35:27,725 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.023430 | caixas=16 | QE=0.1726 TE=0.0857
+2026-11-15 19:35:27,807 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.022135 | caixas=4 | QE=0.4427 TE=0.0000
+2026-11-15 19:35:27,895 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.022205 | caixas=9 | QE=0.2826 TE=0.0286
+2026-11-15 19:35:27,979 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.043683 | caixas=12 | QE=0.2265 TE=0.1429
+2026-11-15 19:35:28,066 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.028909 | caixas=16 | QE=0.1760 TE=0.1143
+2026-11-15 19:35:28,153 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.023855 | caixas=4 | QE=0.4771 TE=0.0000
+2026-11-15 19:35:28,243 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.053665 | caixas=9 | QE=0.2783 TE=0.1429
+2026-11-15 19:35:28,329 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.046881 | caixas=12 | QE=0.2117 TE=0.1714
+2026-11-15 19:35:28,422 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.029214 | caixas=16 | QE=0.1515 TE=0.1429
+2026-11-15 19:35:28,509 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.023988 | caixas=4 | QE=0.4798 TE=0.0000
+2026-11-15 19:35:28,597 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.016043 | caixas=9 | QE=0.3209 TE=0.0000
+2026-11-15 19:35:28,685 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.028046 | caixas=12 | QE=0.2618 TE=0.0571
+2026-11-15 19:35:28,770 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.029963 | caixas=16 | QE=0.2208 TE=0.0857
+2026-11-15 19:35:28,860 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.023136 | caixas=4 | QE=0.4627 TE=0.0000
+2026-11-15 19:35:28,980 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.015751 | caixas=9 | QE=0.3150 TE=0.0000
+2026-11-15 19:35:29,062 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.021018 | caixas=12 | QE=0.2675 TE=0.0286
+2026-11-15 19:35:29,152 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.018773 | caixas=16 | QE=0.2389 TE=0.0286
+2026-11-15 19:35:29,240 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.024111 | caixas=4 | QE=0.4822 TE=0.0000
+2026-11-15 19:35:29,331 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.046998 | caixas=9 | QE=0.3463 TE=0.0857
+2026-11-15 19:35:29,425 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.043464 | caixas=12 | QE=0.2646 TE=0.1143
+2026-11-15 19:35:29,517 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.018271 | caixas=16 | QE=0.2325 TE=0.0286
+2026-11-15 19:35:29,517 - [INIT GRID] Melhor: {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 8} (-CE=-0.015751)
+2026-11-15 19:35:29,517 - Init travada: 9 caixas
+2026-11-15 19:36:10,809 - [RESULTADO] iris | SOM | seed 2 | label 0 | F1 teste=0.9655 | caixas=8.75 | busca=42.0s | treino=2.5s | épocas=733
+2026-11-15 19:36:10,809 - Seed: 2, Dataset: iris, Estratégia: SOM, Label: 1 (2/3).
+2026-11-15 19:36:10,812 - [SEED] seed=2 | label=1 | fingerprint treino=fdeee622
+2026-11-15 19:36:10,897 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.023957 | caixas=4 | QE=0.4791 TE=0.0000
+2026-11-15 19:36:10,981 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.173053 | caixas=9 | QE=0.2919 TE=0.5429
+2026-11-15 19:36:11,077 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.101459 | caixas=12 | QE=0.2408 TE=0.3714
+2026-11-15 19:36:11,169 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.094502 | caixas=16 | QE=0.1863 TE=0.4571
+2026-11-15 19:36:11,255 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.025342 | caixas=4 | QE=0.5068 TE=0.0000
+2026-11-15 19:36:11,338 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.193402 | caixas=9 | QE=0.3262 TE=0.5429
+2026-11-15 19:36:11,449 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.092812 | caixas=12 | QE=0.2548 TE=0.3143
+2026-11-15 19:36:11,565 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.182307 | caixas=16 | QE=0.2010 TE=0.8571
+2026-11-15 19:36:11,649 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.025502 | caixas=4 | QE=0.5100 TE=0.0000
+2026-11-15 19:36:11,741 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.178791 | caixas=9 | QE=0.3168 TE=0.5143
+2026-11-15 19:36:11,831 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.100304 | caixas=12 | QE=0.2380 TE=0.3714
+2026-11-15 19:36:11,938 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.105513 | caixas=16 | QE=0.1870 TE=0.5143
+2026-11-15 19:36:12,042 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.023899 | caixas=4 | QE=0.4780 TE=0.0000
+2026-11-15 19:36:12,137 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.033641 | caixas=9 | QE=0.3140 TE=0.0571
+2026-11-15 19:36:12,244 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.033946 | caixas=12 | QE=0.2501 TE=0.0857
+2026-11-15 19:36:12,407 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.016156 | caixas=16 | QE=0.2056 TE=0.0286
+2026-11-15 19:36:12,510 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.023386 | caixas=4 | QE=0.4677 TE=0.0000
+2026-11-15 19:36:12,633 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.016252 | caixas=9 | QE=0.3250 TE=0.0000
+2026-11-15 19:36:12,747 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.013928 | caixas=12 | QE=0.2786 TE=0.0000
+2026-11-15 19:36:12,838 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.030418 | caixas=16 | QE=0.2241 TE=0.0857
+2026-11-15 19:36:12,929 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.025599 | caixas=4 | QE=0.5120 TE=0.0000
+2026-11-15 19:36:13,048 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.043995 | caixas=9 | QE=0.3242 TE=0.0857
+2026-11-15 19:36:13,146 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.042023 | caixas=12 | QE=0.2558 TE=0.1143
+2026-11-15 19:36:13,274 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.050177 | caixas=16 | QE=0.2007 TE=0.2000
+2026-11-15 19:36:13,462 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.026275 | caixas=4 | QE=0.5255 TE=0.0000
+2026-11-15 19:36:13,618 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.017738 | caixas=9 | QE=0.3548 TE=0.0000
+2026-11-15 19:36:13,757 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.015461 | caixas=12 | QE=0.3092 TE=0.0000
+2026-11-15 19:36:13,864 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.014635 | caixas=16 | QE=0.2927 TE=0.0000
+2026-11-15 19:36:13,962 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.026232 | caixas=4 | QE=0.5246 TE=0.0000
+2026-11-15 19:36:14,095 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.018139 | caixas=9 | QE=0.3628 TE=0.0000
+2026-11-15 19:36:14,196 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.016099 | caixas=12 | QE=0.3220 TE=0.0000
+2026-11-15 19:36:14,306 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.014415 | caixas=16 | QE=0.2883 TE=0.0000
+2026-11-15 19:36:14,407 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.028039 | caixas=4 | QE=0.5608 TE=0.0000
+2026-11-15 19:36:14,512 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.018632 | caixas=9 | QE=0.3726 TE=0.0000
+2026-11-15 19:36:14,650 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.024913 | caixas=12 | QE=0.3171 TE=0.0286
+2026-11-15 19:36:14,815 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.040278 | caixas=16 | QE=0.2968 TE=0.0857
+2026-11-15 19:36:14,816 - [INIT GRID] Melhor: {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 12} (-CE=-0.013928)
+2026-11-15 19:36:14,816 - Init travada: 12 caixas
+2026-11-15 19:37:01,321 - [RESULTADO] iris | SOM | seed 2 | label 1 | F1 teste=0.7692 | caixas=11.75 | busca=47.7s | treino=2.8s | épocas=824
+2026-11-15 19:37:01,321 - Seed: 2, Dataset: iris, Estratégia: SOM, Label: 2 (3/3).
+2026-11-15 19:37:01,326 - [SEED] seed=2 | label=2 | fingerprint treino=b2fdbffb
+2026-11-15 19:37:01,413 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.029872 | caixas=4 | QE=0.5974 TE=0.0000
+2026-11-15 19:37:01,498 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.019900 | caixas=9 | QE=0.3980 TE=0.0000
+2026-11-15 19:37:01,582 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.093549 | caixas=12 | QE=0.3046 TE=0.2571
+2026-11-15 19:37:01,675 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.095633 | caixas=16 | QE=0.2434 TE=0.3429
+2026-11-15 19:37:01,772 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.029248 | caixas=4 | QE=0.5850 TE=0.0000
+2026-11-15 19:37:01,868 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.110146 | caixas=9 | QE=0.3954 TE=0.2286
+2026-11-15 19:37:01,958 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.198816 | caixas=12 | QE=0.3523 TE=0.5143
+2026-11-15 19:37:02,054 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.107244 | caixas=16 | QE=0.2730 TE=0.3429
+2026-11-15 19:37:02,134 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.032275 | caixas=4 | QE=0.6455 TE=0.0000
+2026-11-15 19:37:02,228 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.316102 | caixas=9 | QE=0.4297 TE=0.6857
+2026-11-15 19:37:02,319 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.161835 | caixas=12 | QE=0.3596 TE=0.4000
+2026-11-15 19:37:02,407 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 0.5, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.132129 | caixas=16 | QE=0.2466 TE=0.4857
+2026-11-15 19:37:02,508 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.029996 | caixas=4 | QE=0.5999 TE=0.0000
+2026-11-15 19:37:02,599 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.082129 | caixas=9 | QE=0.4259 TE=0.1429
+2026-11-15 19:37:02,680 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.036630 | caixas=12 | QE=0.3419 TE=0.0571
+2026-11-15 19:37:02,769 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.021735 | caixas=16 | QE=0.2766 TE=0.0286
+2026-11-15 19:37:02,865 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.030835 | caixas=4 | QE=0.6167 TE=0.0000
+2026-11-15 19:37:02,948 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.021459 | caixas=9 | QE=0.4292 TE=0.0000
+2026-11-15 19:37:03,042 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.133017 | caixas=12 | QE=0.3651 TE=0.3143
+2026-11-15 19:37:03,126 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.023788 | caixas=16 | QE=0.3028 TE=0.0286
+2026-11-15 19:37:03,221 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.032682 | caixas=4 | QE=0.6536 TE=0.0000
+2026-11-15 19:37:03,313 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.173237 | caixas=9 | QE=0.4410 TE=0.3429
+2026-11-15 19:37:03,413 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.017444 | caixas=12 | QE=0.3489 TE=0.0000
+2026-11-15 19:37:03,634 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.057407 | caixas=16 | QE=0.2593 TE=0.1714
+2026-11-15 19:37:03,729 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 4} -> -CE=-0.033868 | caixas=4 | QE=0.6774 TE=0.0000
+2026-11-15 19:37:03,811 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 8} -> -CE=-0.039365 | caixas=9 | QE=0.5010 TE=0.0286
+2026-11-15 19:37:03,905 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 12} -> -CE=-0.021401 | caixas=12 | QE=0.4280 TE=0.0000
+2026-11-15 19:37:04,002 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.5, 'nboxes': 16} -> -CE=-0.039064 | caixas=16 | QE=0.3646 TE=0.0571
+2026-11-15 19:37:04,091 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 4} -> -CE=-0.033121 | caixas=4 | QE=0.6624 TE=0.0000
+2026-11-15 19:37:04,175 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 8} -> -CE=-0.025961 | caixas=9 | QE=0.5192 TE=0.0000
+2026-11-15 19:37:04,266 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 12} -> -CE=-0.021909 | caixas=12 | QE=0.4382 TE=0.0000
+2026-11-15 19:37:04,365 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 0.1, 'nboxes': 16} -> -CE=-0.020453 | caixas=16 | QE=0.4091 TE=0.0000
+2026-11-15 19:37:04,458 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 4} -> -CE=-0.036819 | caixas=4 | QE=0.7364 TE=0.0000
+2026-11-15 19:37:04,547 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 8} -> -CE=-0.056631 | caixas=9 | QE=0.5286 TE=0.0571
+2026-11-15 19:37:04,633 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 12} -> -CE=-0.035258 | caixas=12 | QE=0.4487 TE=0.0286
+2026-11-15 19:37:04,726 - [INIT GRID] {'init_strategy': 'som', 'som_sigma': 1.5, 'som_lr': 1.5, 'nboxes': 16} -> -CE=-0.018128 | caixas=16 | QE=0.3626 TE=0.0000
+2026-11-15 19:37:04,727 - [INIT GRID] Melhor: {'init_strategy': 'som', 'som_sigma': 1.0, 'som_lr': 1.5, 'nboxes': 12} (-CE=-0.017444)
+2026-11-15 19:37:04,727 - Init travada: 12 caixas
+2026-11-15 19:37:41,149 - [RESULTADO] iris | SOM | seed 2 | label 2 | F1 teste=0.9333 | caixas=11.75 | busca=37.2s | treino=2.6s | épocas=564

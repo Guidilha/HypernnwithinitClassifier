@@ -1,0 +1,19 @@
+Resultados brutos (CSV) citados na monografia, por experimento.
+
+01_execucao_final_W400
+    Execucao final com aquecimento de 400 epocas (SOM, K-Means, Random, Xavier e DBSCAN corrigido).
+    Tabelas de F1, analise estatistica, numero de caixas e tempos.
+02_dbscan_versao_original
+    DBSCAN antes da correcao (sem teto de caixas e sem escalar epsilon por raiz de d): coluna "Antes" da tabela do DBSCAN.
+03_aquecimento_W300
+    Execucao com aquecimento de 300 epocas: contagem de colapsos da secao do aquecimento.
+04_sem_aquecimento_iris_wine
+    Execucoes sem aquecimento (Iris e Wine): tabela de colapsos do Wine, coluna "Sem aquecimento".
+05_random_M4_varredura_W
+    Random com M=4 fixo e W = 0, 100, 200, 300 e 400 (arquivos em ordem de W): tabela da varredura de W.
+06_sem_regularizacao
+    Execucao sem regularizacao (lambda1 = lambda2 = 0, sem aquecimento), com a configuracao da execucao final
+    (paciencia 200, ate 10.000 epocas, M em {4, 8, 12, 16}): tabela de F1 sem regularizacao.
+07_regularizacao_iris_digits_SOM
+    SOM no Iris com as configuracoes A (20261023), B (20261025) e C (20261026-172020) de regularizacao,
+    e o SOM no Digits com apenas lambda2 (20261026-140532).

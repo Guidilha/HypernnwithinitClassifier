@@ -1,0 +1,11 @@
+# ambientes virtuais
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# cache de execução e saídas locais
+experiment_checkpoint.json
+runs/

@@ -1,0 +1,34 @@
+# Sem GPU: troque a linha do torch por torch==2.5.1 e apague a linha --extra-index-url.
+--extra-index-url https://download.pytorch.org/whl/cu121
+cloudpickle==3.1.2
+colorama==0.4.6
+contourpy==1.4.0
+cycler==0.12.1
+filelock==4.2.4
+fonttools==4.65.0
+fsspec==2026.9.0
+Jinja2==3.1.6
+joblib==1.6.0
+kiwisolver==1.5.1
+MarkupSafe==3.0.4
+matplotlib==3.11.2
+MiniSom==2.3.6
+mpmath==1.3.0
+narwhals==2.26.0
+networkx==3.7
+numpy==2.5.2
+packaging==26.3
+pandas==3.0.5
+pillow==13.0.0
+pyparsing==3.3.2
+python-dateutil==3.0.0
+scikit-learn==1.9.1
+scipy==1.18.1
+setuptools==84.2.1
+six==1.17.0
+sympy==1.13.1
+threadpoolctl==3.7.0
+tqdm==4.70.1
+typing_extensions==4.16.0
+tzdata==2026.5
+torch==2.5.1+cu121
