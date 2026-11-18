@@ -80,6 +80,7 @@ def get_hypernn_and_hyperparameters(experiment_options):
             "dbscan_min_samples": [1, 10, 20, 50],
             "dbscan_eps_by_dim":[True],
             "dbscan_cap_boxes":[True],
+            "dbscan_min_coverage":[0.9],
             "nboxes": [4, 8, 12, 16]
         }
         hypernn_param_grid = {

@@ -26,6 +26,7 @@ class HyperNNWithInitClassifier(AbstractClassifier):
         "random_state",
         "dbscan_cap_boxes",
         "dbscan_eps_by_dim",
+        "dbscan_min_coverage",
     )
 
     def __init__(
@@ -52,6 +53,7 @@ class HyperNNWithInitClassifier(AbstractClassifier):
         reg_warmup_start=0.0,
         dbscan_cap_boxes=False,
         dbscan_eps_by_dim=False,
+        dbscan_min_coverage=0.0,
     ):
         self.nboxes = nboxes
         self.init_strategy = init_strategy
@@ -75,6 +77,7 @@ class HyperNNWithInitClassifier(AbstractClassifier):
         self.reg_warmup_start = reg_warmup_start
         self.dbscan_cap_boxes = dbscan_cap_boxes
         self.dbscan_eps_by_dim = dbscan_eps_by_dim
+        self.dbscan_min_coverage = dbscan_min_coverage
         self.clf = None
 
         # Tensors de inicialização, tempo e métrica salvos
@@ -256,6 +259,15 @@ class HyperNNWithInitClassifier(AbstractClassifier):
         else:
             sil_score = -1.0
 
+        # Restrição de cobertura: a silhueta ignora o ruído e, sozinha, favorece poucos
+        # clusters minúsculos (o resto dos pontos vira ruído). Configurações que cobrem
+        # menos que `dbscan_min_coverage` da classe-alvo (já com o teto de caixas)
+        # recebem score abaixo do piso da silhueta (< -1), proporcional à cobertura:
+        # qualquer configuração viável vence, e, se nenhuma for, vence a de maior cobertura.
+        coverage = float(mask.sum()) / len(X_target)
+        if coverage < self.dbscan_min_coverage:
+            sil_score = -2.0 + coverage
+
         return mins_tensor, lengths_tensor, sil_score
 
     def calculate_xavier_init(self, dim: int):
@@ -295,6 +307,7 @@ class HyperNNWithInitClassifier(AbstractClassifier):
                 self.dbscan_cap_boxes,
                 self.nboxes if self.dbscan_cap_boxes else None,
                 self.dbscan_eps_by_dim,
+                self.dbscan_min_coverage,
             )
         else:
             params_key = (self.nboxes, self.gamma_escala, self.random_state)
@@ -430,6 +443,7 @@ class HyperNNWithInitClassifier(AbstractClassifier):
             "reg_warmup_start": self.reg_warmup_start,
             "dbscan_cap_boxes": self.dbscan_cap_boxes,
             "dbscan_eps_by_dim": self.dbscan_eps_by_dim,
+            "dbscan_min_coverage": self.dbscan_min_coverage,
         }
 
     def set_hyperparameters(self, hyperparameters: dict):
