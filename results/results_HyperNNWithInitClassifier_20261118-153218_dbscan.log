@@ -1,0 +1,229 @@
+2026-11-18 15:32:18,919 - Starting 15 experiments for strategy: DBSCAN
+2026-11-18 15:32:18,919 - Seeds utilizadas: [0, 1, 2]
+2026-11-18 15:32:18,924 - [EXECUÇÃO] Dataset: iris | Estratégia: DBSCAN | Seed: 0
+2026-11-18 15:32:18,931 - Seed: 0, Dataset: iris, Estratégia: DBSCAN, Label: 0 (1/3).
+2026-11-18 15:32:18,947 - [SEED] seed=0 | label=0 | fingerprint treino=6a6482d1
+2026-11-18 15:32:18,958 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.714286 | caixas=4 | DB=0.4462 CH=74.3317
+2026-11-18 15:32:18,968 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.571429 | caixas=8 | DB=0.3640 CH=47.8684
+2026-11-18 15:32:18,979 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.457143 | caixas=12 | DB=0.3174 CH=37.5764
+2026-11-18 15:32:18,996 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.342857 | caixas=16 | DB=0.2830 CH=43.4742
+2026-11-18 15:32:18,997 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=10).
+2026-11-18 15:32:18,998 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:18,999 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=10).
+2026-11-18 15:32:19,000 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,002 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=10).
+2026-11-18 15:32:19,002 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,003 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=10).
+2026-11-18 15:32:19,003 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,005 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=20).
+2026-11-18 15:32:19,005 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,007 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=20).
+2026-11-18 15:32:19,007 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,009 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=20).
+2026-11-18 15:32:19,009 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,011 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=20).
+2026-11-18 15:32:19,011 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,012 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=50).
+2026-11-18 15:32:19,013 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,015 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=50).
+2026-11-18 15:32:19,015 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,017 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=50).
+2026-11-18 15:32:19,017 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,018 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=50).
+2026-11-18 15:32:19,018 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,025 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=0.535701 | caixas=2 | DB=0.2812 CH=8.6751
+2026-11-18 15:32:19,035 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=0.535701 | caixas=2 | DB=0.2812 CH=8.6751
+2026-11-18 15:32:19,042 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=0.535701 | caixas=2 | DB=0.2812 CH=8.6751
+2026-11-18 15:32:19,049 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=0.535701 | caixas=2 | DB=0.2812 CH=8.6751
+2026-11-18 15:32:19,052 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,054 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,058 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,060 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,064 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,067 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,071 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,074 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,076 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.5, min_samples=50).
+2026-11-18 15:32:19,076 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,077 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.5, min_samples=50).
+2026-11-18 15:32:19,078 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,079 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.5, min_samples=50).
+2026-11-18 15:32:19,079 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,080 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.5, min_samples=50).
+2026-11-18 15:32:19,080 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,083 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,086 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,090 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,093 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,096 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,099 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,101 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,105 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,108 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,110 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,113 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,116 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,117 - [DBSCAN Warning] Nenhum cluster encontrado (eps=1, min_samples=50).
+2026-11-18 15:32:19,118 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,119 - [DBSCAN Warning] Nenhum cluster encontrado (eps=1, min_samples=50).
+2026-11-18 15:32:19,119 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,121 - [DBSCAN Warning] Nenhum cluster encontrado (eps=1, min_samples=50).
+2026-11-18 15:32:19,121 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,122 - [DBSCAN Warning] Nenhum cluster encontrado (eps=1, min_samples=50).
+2026-11-18 15:32:19,122 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,126 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,128 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,131 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,134 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,138 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,141 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,144 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,147 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,149 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,153 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,156 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,158 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,160 - [DBSCAN Warning] Nenhum cluster encontrado (eps=1.5, min_samples=50).
+2026-11-18 15:32:19,161 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,162 - [DBSCAN Warning] Nenhum cluster encontrado (eps=1.5, min_samples=50).
+2026-11-18 15:32:19,162 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,164 - [DBSCAN Warning] Nenhum cluster encontrado (eps=1.5, min_samples=50).
+2026-11-18 15:32:19,164 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,165 - [DBSCAN Warning] Nenhum cluster encontrado (eps=1.5, min_samples=50).
+2026-11-18 15:32:19,165 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,169 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,172 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,176 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,179 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,182 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,185 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,188 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,191 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,194 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,197 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,200 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,203 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:32:19,205 - [DBSCAN Warning] Nenhum cluster encontrado (eps=2, min_samples=50).
+2026-11-18 15:32:19,205 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,206 - [DBSCAN Warning] Nenhum cluster encontrado (eps=2, min_samples=50).
+2026-11-18 15:32:19,206 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,207 - [DBSCAN Warning] Nenhum cluster encontrado (eps=2, min_samples=50).
+2026-11-18 15:32:19,208 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,209 - [DBSCAN Warning] Nenhum cluster encontrado (eps=2, min_samples=50).
+2026-11-18 15:32:19,209 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-inf | caixas=0
+2026-11-18 15:32:19,220 - [INIT GRID] Melhor: {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} (Silhouette=0.535701)
+2026-11-18 15:32:19,220 - Init travada: 2 caixas
+2026-11-18 15:33:52,436 - [VIZ] figura salva em results\figures\iris_dbscan_seed0_label0.png
+2026-11-18 15:33:52,436 - [RESULTADO] iris | DBSCAN | seed 0 | label 0 | F1 teste=0.9655 | caixas=1.00 | busca=88.3s | treino=4.7s | épocas=1867
+2026-11-18 15:33:52,437 - Seed: 0, Dataset: iris, Estratégia: DBSCAN, Label: 1 (2/3).
+2026-11-18 15:33:52,440 - [SEED] seed=0 | label=1 | fingerprint treino=a37f9df4
+2026-11-18 15:33:52,448 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.857143 | caixas=4 | DB=0.1459 CH=158.6544
+2026-11-18 15:33:52,457 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.742857 | caixas=8 | DB=0.0989 CH=111.4769
+2026-11-18 15:33:52,468 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.628571 | caixas=12 | DB=0.0807 CH=106.9633
+2026-11-18 15:33:52,481 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.514286 | caixas=16 | DB=0.0745 CH=112.1268
+2026-11-18 15:33:52,482 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=10).
+2026-11-18 15:33:52,482 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,483 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=10).
+2026-11-18 15:33:52,483 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,485 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=10).
+2026-11-18 15:33:52,485 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,486 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=10).
+2026-11-18 15:33:52,486 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,487 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=20).
+2026-11-18 15:33:52,488 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,489 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=20).
+2026-11-18 15:33:52,489 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,490 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=20).
+2026-11-18 15:33:52,490 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,491 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=20).
+2026-11-18 15:33:52,491 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,492 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=50).
+2026-11-18 15:33:52,492 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,494 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=50).
+2026-11-18 15:33:52,494 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,495 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=50).
+2026-11-18 15:33:52,495 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,497 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.1, min_samples=50).
+2026-11-18 15:33:52,497 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.1, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,499 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,502 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,505 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,508 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,510 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,513 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,516 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,518 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,520 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.285714 | caixas=1
+2026-11-18 15:33:52,523 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.285714 | caixas=1
+2026-11-18 15:33:52,525 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.285714 | caixas=1
+2026-11-18 15:33:52,528 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.285714 | caixas=1
+2026-11-18 15:33:52,530 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.5, min_samples=50).
+2026-11-18 15:33:52,530 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,531 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.5, min_samples=50).
+2026-11-18 15:33:52,531 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,532 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.5, min_samples=50).
+2026-11-18 15:33:52,532 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,534 - [DBSCAN Warning] Nenhum cluster encontrado (eps=0.5, min_samples=50).
+2026-11-18 15:33:52,534 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,537 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,539 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,542 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,545 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,547 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,550 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,553 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,556 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,559 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,561 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,564 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,567 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,568 - [DBSCAN Warning] Nenhum cluster encontrado (eps=1, min_samples=50).
+2026-11-18 15:33:52,568 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,570 - [DBSCAN Warning] Nenhum cluster encontrado (eps=1, min_samples=50).
+2026-11-18 15:33:52,570 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,571 - [DBSCAN Warning] Nenhum cluster encontrado (eps=1, min_samples=50).
+2026-11-18 15:33:52,571 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,573 - [DBSCAN Warning] Nenhum cluster encontrado (eps=1, min_samples=50).
+2026-11-18 15:33:52,573 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,575 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,579 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,581 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,584 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,586 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,589 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,592 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,595 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,598 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,600 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,603 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,606 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,607 - [DBSCAN Warning] Nenhum cluster encontrado (eps=1.5, min_samples=50).
+2026-11-18 15:33:52,607 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,608 - [DBSCAN Warning] Nenhum cluster encontrado (eps=1.5, min_samples=50).
+2026-11-18 15:33:52,608 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,610 - [DBSCAN Warning] Nenhum cluster encontrado (eps=1.5, min_samples=50).
+2026-11-18 15:33:52,610 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,611 - [DBSCAN Warning] Nenhum cluster encontrado (eps=1.5, min_samples=50).
+2026-11-18 15:33:52,611 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 1.5, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,614 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,616 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,619 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,622 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,625 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,628 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,630 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,633 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 10, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,635 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,638 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,641 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,643 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 20, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-1.000000 | caixas=1
+2026-11-18 15:33:52,644 - [DBSCAN Warning] Nenhum cluster encontrado (eps=2, min_samples=50).
+2026-11-18 15:33:52,645 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,646 - [DBSCAN Warning] Nenhum cluster encontrado (eps=2, min_samples=50).
+2026-11-18 15:33:52,646 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 8} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,648 - [DBSCAN Warning] Nenhum cluster encontrado (eps=2, min_samples=50).
+2026-11-18 15:33:52,648 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 12} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,649 - [DBSCAN Warning] Nenhum cluster encontrado (eps=2, min_samples=50).
+2026-11-18 15:33:52,649 - [INIT GRID] {'init_strategy': 'dbscan', 'dbscan_eps': 2, 'dbscan_min_samples': 50, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 16} -> Silhouette=-inf | caixas=0
+2026-11-18 15:33:52,736 - [INIT GRID] Melhor: {'init_strategy': 'dbscan', 'dbscan_eps': 0.5, 'dbscan_min_samples': 1, 'dbscan_eps_by_dim': True, 'dbscan_cap_boxes': True, 'dbscan_min_coverage': 0.9, 'nboxes': 4} (Silhouette=-1.000000)
+2026-11-18 15:33:52,737 - Init travada: 1 caixas

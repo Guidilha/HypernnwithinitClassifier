@@ -204,7 +204,6 @@ class HyperNNWithInitClassifier(AbstractClassifier):
         return mins_tensor, lengths_tensor, ce
 
     def dbscan_labels(self, X_target: np.ndarray):
-        """Rótulos do DBSCAN já com o raio efetivo e o teto de `nboxes` clusters (ruído = -1)."""
         eps = self.dbscan_eps * (np.sqrt(X_target.shape[1]) if self.dbscan_eps_by_dim else 1.0)
         labels = DBSCAN(eps=eps, min_samples=self.dbscan_min_samples).fit_predict(X_target)
         ids = [lbl for lbl in set(labels) if lbl != -1]
@@ -259,11 +258,6 @@ class HyperNNWithInitClassifier(AbstractClassifier):
         else:
             sil_score = -1.0
 
-        # Restrição de cobertura: a silhueta ignora o ruído e, sozinha, favorece poucos
-        # clusters minúsculos (o resto dos pontos vira ruído). Configurações que cobrem
-        # menos que `dbscan_min_coverage` da classe-alvo (já com o teto de caixas)
-        # recebem score abaixo do piso da silhueta (< -1), proporcional à cobertura:
-        # qualquer configuração viável vence, e, se nenhuma for, vence a de maior cobertura.
         coverage = float(mask.sum()) / len(X_target)
         if coverage < self.dbscan_min_coverage:
             sil_score = -2.0 + coverage
